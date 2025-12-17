@@ -9,7 +9,7 @@ import Academics from './pages/Academics';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/Personal-Website">
             <div className="container">
                 <Header />
                 <Routes>
@@ -30,10 +30,10 @@ function App() {
                     <div className="flex justify-between items-center">
                         <p>&copy; {new Date().getFullYear()} Anthony Kim</p>
                         <div className="flex gap-sm" style={{ fontSize: '1.1rem' }}>
-                            <a href="mailto:anthony@example.com" aria-label="Email" style={{ color: 'var(--color-text-light)' }}><FaEnvelope /></a>
+                            <a href="mailto:anthonyk@westbournecollege.com.au" aria-label="Email" style={{ color: 'var(--color-text-light)' }}><FaEnvelope /></a>
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: 'var(--color-text-light)' }}><FaTwitter /></a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--color-text-light)' }}><FaGithub /></a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--color-text-light)' }}><FaLinkedin /></a>
+                            <a href="https://github.com/OzG71LXXeKVjzhP8LLWaYM4bo" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--color-text-light)' }}><FaGithub /></a>
+                            <a href="https://www.linkedin.com/in/anthony-k-a071a3325/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--color-text-light)' }}><FaLinkedin /></a>
                         </div>
                     </div>
                 </footer>

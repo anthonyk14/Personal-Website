@@ -13,15 +13,6 @@ const Home = () => {
                     experimenting with different ML frameworks and techniques.
                 </p>
             </Section>
-
-            <Section title="Interests">
-                <ul>
-                    <li>Machine Learning & Deep Learning</li>
-                    <li>Computer Vision</li>
-                    <li>Natural Language Processing</li>
-                    <li>AI Research</li>
-                </ul>
-            </Section>
         </>
     );
 };

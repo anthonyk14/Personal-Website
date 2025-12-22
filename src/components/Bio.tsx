@@ -1,4 +1,4 @@
-import { FaTwitter, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Bio = () => {
     return (
@@ -21,7 +21,6 @@ const Bio = () => {
                     </div>
                     <div className="flex gap-sm" style={{ marginTop: 'var(--spacing-sm)', fontSize: '1.2rem' }}>
                         <a href="mailto:anthony@example.com" aria-label="Email" style={{ color: 'var(--color-text)' }}><FaEnvelope /></a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: 'var(--color-text)' }}><FaTwitter /></a>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--color-text)' }}><FaGithub /></a>
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--color-text)' }}><FaLinkedin /></a>
                     </div>
@@ -37,8 +36,7 @@ const Bio = () => {
                         justifyContent: 'center',
                         overflow: 'hidden'
                     }}>
-                        <span style={{ color: 'var(--color-text-light)' }}>Portrait</span>
-                        {/* <img src="/path/to/image.jpg" alt="Anthony Kim" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> */}
+                            <img src="/Personal-Website/portrait.jpg" alt="Anthony Kim" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                 </div>
             </div>

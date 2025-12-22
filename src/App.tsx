@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { FaTwitter, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -31,7 +31,6 @@ function App() {
                         <p>&copy; {new Date().getFullYear()} Anthony Kim</p>
                         <div className="flex gap-sm" style={{ fontSize: '1.1rem' }}>
                             <a href="mailto:anthonyk@westbournecollege.com.au" aria-label="Email" style={{ color: 'var(--color-text-light)' }}><FaEnvelope /></a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: 'var(--color-text-light)' }}><FaTwitter /></a>
                             <a href="https://github.com/OzG71LXXeKVjzhP8LLWaYM4bo" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--color-text-light)' }}><FaGithub /></a>
                             <a href="https://www.linkedin.com/in/anthony-k-a071a3325/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--color-text-light)' }}><FaLinkedin /></a>
                         </div>

@@ -20,9 +20,9 @@ const Bio = () => {
                         </p>
                     </div>
                     <div className="flex gap-sm" style={{ marginTop: 'var(--spacing-sm)', fontSize: '1.2rem' }}>
-                        <a href="mailto:anthony@example.com" aria-label="Email" style={{ color: 'var(--color-text)' }}><FaEnvelope /></a>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--color-text)' }}><FaGithub /></a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--color-text)' }}><FaLinkedin /></a>
+                        <a href="mailto:anthonyk@westbournecollege.com.au" aria-label="Email" style={{ color: 'var(--color-text)' }}><FaEnvelope /></a>
+                        <a href="https://github.com/OzG71LXXeKVjzhP8LLWaYM4bo" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--color-text)' }}><FaGithub /></a>
+                        <a href="https://www.linkedin.com/in/anthony-k-a071a3325/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--color-text)' }}><FaLinkedin /></a>
                     </div>
                 </div>
                 <div style={{ flexShrink: 0, marginLeft: 'var(--spacing-md)' }}>
